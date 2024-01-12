@@ -12,9 +12,10 @@
     outline: none;
     background-color: #FF900E;
     border-radius: 8px;
-    padding: 20px 25px;
+    padding: 15px 20px;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1rem;
+    cursor: pointer;
 }
 .header-section{
     background: rgba(255, 144, 14, 0.10);
@@ -40,12 +41,12 @@
 }
 .nav-section > ul li a{
     color: #424242;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
 }
 
 .banner-section{
-  margin-top: 50px;   
+  margin-top: 30px;   
 }
 .banner-content{
     max-width: 800px; 
@@ -55,14 +56,15 @@
 }
 .banner-title{
     color:#131313;
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 20px;
     text-align: center;
 }
 .banner-description{
     color: #727272;
-    padding: 10px;
+    font-size: 1rem;
     line-height: 25px;
+    margin-bottom: 20px;
 }
 
 img{
