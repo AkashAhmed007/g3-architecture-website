@@ -36,12 +36,11 @@
 .nav-section li{
     list-style-type: none;
     margin-right: 30px;
-    font-size: 1rem;
     font-weight: 500;
 }
 .nav-section > ul li a{
     color: #424242;
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-decoration: none;
 }
 
@@ -67,6 +66,51 @@
     margin-bottom: 20px;
 }
 
-img{
+.banner-section img{
     width: 100%;
+}
+
+/* Responsive for mobile device */
+
+@media screen and (max-width:576px) {
+    .header-section{
+        padding: 20px;
+    }
+    .nav-section{
+        flex-direction: column;
+    }
+    .nav-title{
+        font-size: 1.5rem;
+    }
+    .nav-section > ul{
+        margin-top: 20px;
+    }
+    .banner-content{
+        padding: 30px;
+    }
+    .banner-title{
+        font-size: 2rem;
+    }
+    .banner-description{
+        text-align: justify;
+    }
+    .btn-primary{
+       padding: 10px 15px;
+    }
+}
+/* Responsive for tablet device */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .header-section{
+        padding: 50px;
+    }
+    .nav-section{
+        flex-direction: column;
+    }
+    .nav-title{
+        margin-bottom: 20px;
+    }
+    .banner-section{
+        margin-top: 0px;
+    }
 }
