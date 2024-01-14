@@ -17,6 +17,8 @@
     font-size: 1rem;
     cursor: pointer;
 }
+
+/* header section styles */
 .header-section{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -43,7 +45,6 @@
     font-size: 1.5rem;
     text-decoration: none;
 }
-
 .banner-section{
   margin-top: 30px;   
 }
@@ -65,10 +66,63 @@
     line-height: 25px;
     margin-bottom: 20px;
 }
-
 .banner-section img{
     width: 100%;
 }
+
+/* features section styles */
+main{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 40px 270px;
+}
+.teams-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+}
+.image-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.text-container{
+    padding-left: 70px;
+    padding-right: 50px;
+}
+.teams-title{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+.teams-title .quick-list-span{
+    color:#727272;
+    font-weight: 500;
+}
+.teams-title .feature-span{
+    color:#FF900E;
+    font-weight: 700;
+}
+.text-description{
+    width: 480px;
+    color:#727272;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Responsive for mobile device */
 
@@ -87,6 +141,7 @@
     }
     .banner-content{
         padding: 30px;
+        margin-top:0;
     }
     .banner-title{
         font-size: 2rem;
