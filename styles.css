@@ -229,6 +229,42 @@
     font-weight: 600;
 }
 
+/* sponsor section style */
+.sponsor-section h3{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 100px;
+}
+.sponsor-section p{
+    color: #424242;
+    text-align: center;
+    margin: 20px 0;
+}
+.sponsor-image-container{
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+.sponsor-image-container img{
+    margin:20px;
+}
+
+
+
+
+
+
+
+.footer-section{
+    max-width: 1440px;
+    padding: 40px 240px;
+    border-radius: 8px;
+    background: #FFF4E7;
+}
+.footer-section p{
+    text-align: center;
+    padding-top:20px;
+}
 /* Responsive for mobile device */
 
 @media screen and (max-width: 576px) {
